@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Sans:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+.container {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18;
+}
+
+.logo {
+  width: 140px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  font-size: 20;
+  font-weight: 600;
+  /* color: #D8CBFF; */
+  font-family: 'Poppins';
+}
+
+.link:hover {
+  color: #FFBCF1;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .container {
+    font-size: 12px;
+    gap: 2px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 18;
+  }
+  
+  .nav-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .drawer {
+    background-color: #3911AE;
+    height: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-left: 2rem;
+  }
+
+  .link {
+    color: #D8CBFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.45px;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+  }
+
+  .logoMobile {
+    padding-left: 2rem;
+    padding-top: 2.5rem;
+  }
+
+}
