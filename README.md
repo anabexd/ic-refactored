@@ -1,2 +1,2 @@
 # ic-refactored
-💜 scientific initiation website refactored 
+Scientific initiation website refactored 
